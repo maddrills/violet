@@ -1,0 +1,211 @@
+h2 {
+  text-align: center;
+  grid-column: 1 / 3;
+  font-size: 10rem;
+  padding: 3rem;
+  margin: 10rem 0rem 6rem 0rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* for any scrool selements from left to right */
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.containment {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+}
+.grid-two {
+  grid-template-columns: 1fr 1fr;
+}
+
+.align2d {
+  display: flex;
+  gap: 42.2px;
+  padding: 2.4rem 3.8rem;
+}
+
+.next-content--gap {
+  margin-bottom: 2rem;
+}
+
+.full-stretch {
+  grid-column: 1 / 3;
+  /* margin-bottom: 10rem; */
+}
+
+/* naavigation element  */
+
+.navigation-elements {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+.main-nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  color: #555;
+  padding: 0.3rem;
+  border-bottom: solid 0rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4.7rem;
+}
+
+.main-nav-list li {
+  padding: 1.4rem;
+}
+
+.full-stretch-green {
+  background-color: rgb(0, 51, 10);
+}
+
+/* END naavigation element  */
+
+/* introduction */
+
+.profile-image {
+}
+
+.span-two {
+  grid-column: 1 / 3;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  height: 40rem;
+  width: auto;
+}
+.intro-section {
+  background-color: #c2e7d9;
+  margin-top: 12rem;
+}
+
+.shadowing {
+  border-radius: 5px;
+  box-shadow: 0rem 0rem 0.7rem #5555557c;
+}
+.intro-section h1 {
+  font-size: 4.8rem;
+  padding: 0 0 1.2rem 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0f084b;
+}
+.intro-section p {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  word-spacing: 0.5rem;
+  color: #0f084b;
+  margin-bottom: 1rem;
+  font-weight: 450;
+}
+
+.find-me-heading {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+/* .you-tube, .stack-overflow, .linked-in, .git-hub */
+
+.you-tube,
+.stack-overflow,
+.linked-in,
+.git-hub {
+  cursor: pointer;
+  height: 4rem;
+  width: 4rem;
+  transition: all 0.33s;
+}
+
+.you-tube:hover {
+  fill: #f03e3e;
+}
+
+.stack-overflow:hover {
+  fill: #f59f00;
+}
+
+.linked-in:hover {
+  fill: #4263eb;
+}
+
+.git-hub:hover {
+  fill: #868e96;
+}
+
+.find-me {
+}
+.find-me ul {
+  margin-top: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+}
+
+/* End Introduction */
+
+/* snake */
+hr {
+  border: none;
+  border-top: 5px dotted #555;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  right: -60%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.inverted {
+  transform: rotate(90deg) translateY(0%);
+  right: 3%;
+  top: 110%;
+}
+.circular-info-circle svg {
+  position: absolute;
+  right: -7%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 18.8rem;
+  width: 18.8rem;
+  fill: #555;
+}
+
+.full-picture {
+  /* max-width: 2rem; */
+}
+
+.full-picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.words {
+  padding: 5rem;
+}
